@@ -1,0 +1,115 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good day", "Greetings", "What's up?",
+        "How's it going?", "Is anyone there?", "Yo"
+      ],
+      "responses": [
+        "Hello! 👋",
+        "Hi there, how can I assist you today?",
+        "Hey! Ready to chat whenever you are."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Talk to you soon",
+        "I am leaving", "Catch you later", "Adios", "Cya"
+      ],
+      "responses": [
+        "Goodbye! Hope to chat again soon.",
+        "See you later! Have a great day 😊",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Thanks a lot", "Much appreciated", "Thx"
+      ],
+      "responses": [
+        "You're very welcome!",
+        "Happy to help! 😊",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is programming?", "Tell me about coding", "Explain software development",
+        "What is software engineering?", "How do people build software?"
+      ],
+      "responses": [
+        "Programming means giving instructions to a computer to perform specific tasks.",
+        "It's the process of writing code to build software, apps, websites, and more.",
+        "Software development involves designing, coding, testing, and maintaining applications."
+      ]
+    },
+    {
+      "tag": "resource",
+      "patterns": [
+        "Where can I learn to code?", "Best websites for learning coding",
+        "Recommend programming courses", "Top resources for developers",
+        "How can I become a software engineer?"
+      ],
+      "responses": [
+        "Here are some great resources:\n- freeCodeCamp\n- Codecademy\n- The Odin Project\n- YouTube channels like NeuralNine and Tech with Tim.",
+        "Check out 'The Python Bible' on Udemy, or visit w3schools.com and GeeksForGeeks."
+      ]
+    },
+    {
+      "tag": "stocks",
+      "patterns": [
+        "What stocks do I own?", "Show my stock portfolio", "Which stocks are in my list?",
+        "Tell me my stocks", "What are my investments?"
+      ],
+      "responses": [
+        "Here are your stocks! 📈", "Loading your portfolio... one sec!", "These are the stocks currently tracked for you:"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?", "Tell me the current time", "Can you give me the time?",
+        "What's the time now?", "Time please"
+      ],
+      "responses": [
+        "Let me check my watch... ⏰", "One moment, getting the current time for you!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "I need a joke", "Do you know any jokes?",
+        "Say something funny"
+      ],
+      "responses": [
+        "Here's a good one for you...", "Okay, get ready to laugh!", "This one always cracks me up!"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who made you?", "Who created you?", "Who is your developer?",
+        "Tell me about your creator"
+      ],
+      "responses": [
+        "I was built by a curious developer who loves Python and AI.",
+        "Let's just say, I'm the brainchild of a human who wanted to make smart assistants smarter. 😉"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?", "Tell me the weather", "Weather today",
+        "How's the weather outside?", "Do I need an umbrella?"
+      ],
+      "responses": [
+        "I can't access weather data right now, but I recommend checking your favorite weather app! ☁️☀️🌧️",
+        "I'd love to help, but my weather sensors are off today. 😅"
+      ]
+    }
+  ]
+}
