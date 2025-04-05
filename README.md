@@ -112,4 +112,4 @@ MIT License. Feel free to use and modify.
 
 ## 👨‍💻 Author
 
-Created by [Your Name]. Feel free to reach out for collaborations!
+Created by Efe ERDOGAN. Feel free to reach out for collaborations!
